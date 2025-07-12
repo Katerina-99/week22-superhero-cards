@@ -34,7 +34,7 @@ const Card = ({
             <span className="superpower">{superpower}</span>
           </p>
         </div>
-        <img className="card-img" src="" alt="" />
+        <img className="card-img" src={imageSrc} alt={imageAlt} />
       </div>
     </>
   );
